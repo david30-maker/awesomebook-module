@@ -1,4 +1,4 @@
-/*import Display from './modules/showFunction.js';
+import Display from './modules/showFunction.js';
 import { DateTime } from './modules/luxon.js';
 
 const booksList = document.querySelector('.books-list');
