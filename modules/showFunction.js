@@ -1,5 +1,5 @@
 /* eslint-disable  max-classes-per-file */
-/*import Book from './in.js';
+import Book from './in.js';
 
 export default class Display {
   static getBooks = () => {
@@ -53,4 +53,4 @@ export default class Display {
     localStorage.setItem('books', JSON.stringify(books));
     this.displayBooks();
   };
-}*/
+}
