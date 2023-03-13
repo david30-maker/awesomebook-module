@@ -50,4 +50,4 @@ const showDateTime = () => {
 
   showCurrentTime.textContent = curTime;
 };
-setInterval(showDateTime, 1000); */
+setInterval(showDateTime, 1000); 
