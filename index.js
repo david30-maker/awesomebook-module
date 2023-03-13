@@ -8,7 +8,7 @@ const books = document.querySelector('.books');
 const forms = document.querySelector('.form');
 const contact = document.querySelector('.cont-1');
 const tag = document.querySelector('h1');
-const showCurrentTime = document.querySelector('.current-time');
+const showCurrTime = document.querySelector('.current-time');
 
 books.style.display = 'none';
 forms.style.display = 'block';
@@ -46,8 +46,8 @@ form.addEventListener('submit', (e) => {
 
 const showDateTime = () => {
   const time = DateTime.now();
-  const curTime = time.toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
+  const dayTime = time.toLocaleString(DateTime.DATETIME_FULL_WITH_SECONDS);
 
-  showCurrentTime.textContent = curTime;
+  showCurrTime.textContent = dayTime;
 };
-setInterval(showDateTime, 1000); 
+setInterval(showDateTime, 1000);

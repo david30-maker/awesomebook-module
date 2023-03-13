@@ -1,161 +1,157 @@
 body {
-    font-size: 15px;
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-1 {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  #book-display {
-    display: flex;
-  }
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
 
-  .section {
-    border: 2px solid;
-    height: auto;
-    padding: 1rem 0;
-  }
-  
-  .nav-bar {
-    width: 95%;
-    height: 2rem;
-    align-items: center;
-    background-color: rgb(148, 145, 145);
-    border: 3px solid;
-    margin: auto;
-  }
-  
-  .nav-list {
-    display: flex;
-    width: 40%;
-    height: auto;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
-  }
-  
-  .nav-list li {
-    list-style: none;
-    color: blue;
-    cursor: pointer;
-  }
-  
-  #ok {
-    border-right: 2px solid black;
-    height: 1.5rem;
-  }
-  
-  .contact ul li {
-    text-align: left;
-  }
-  
-  .nav-list li:hover {
-    color: aqua;
-  }
-  
-  .date-time {
-    margin: 0 0 0 80%;
-  }
-  
-  h2 {
-    width: 60%;
-    padding-left: 1rem;
-  }
-  
-  h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .section-1 {
-    text-align: center;
-    width: 100%;
-  }
-  
-  .hr {
-    width: 20%;
-    margin-top: 2rem;
-    border: none;
-    height: 2px;
-    color: #333;
-    background-color: #333;
-  }
-  
-  .add {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  
-  .booksAdded {
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 0.5rem 0 0.5rem;
-  }
-  
-  .booksAdded:nth-of-type(odd) {
-    background-color: #d3d3d3;
-    height: 3rem;
-  }
-  
-  .booksAdded:nth-of-type(even) {
-    background-color: #fff;
-    height: 3rem;
-  }
-  
-  .button-form {
-    width: 55%;
-    margin: 0 auto;
-  }
-  
-  .form button {
-    margin-left: 94%;
-    cursor: pointer;
-  }
-  
-  .books {
-    width: 60%;
-    text-align: center;
-    border: 3px solid;
-    margin: 0 auto;
-  }
-  
-  .removeBtn {
-    background-color: #ece9e9;
-    cursor: pointer;
-  }
-  
-  .form {
-    width: 65%;
-    margin: 0 auto;
-  }
-  
-  .form input {
-    width: 55%;
-    margin-bottom: 0.5rem;
-  }
-  
-  .cont-1 {
-    width: 55%;
-    margin: auto;
-  }
-  
-  .cont-1 p {
-    text-align: center;
-  }
-  
-  .cont-1 ul li {
-    text-align: center;
-    list-style: none;
-  }
-  
-  .copy-right {
-    width: 80%;
-    border: 2px solid;
-    margin: 3rem auto 0;
-    text-align: left;
-    padding-left: 1rem;
-  }
+.nav-1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#book-display {
+  display: flex;
+}
+
+.section {
+  border: 2px solid;
+  height: auto;
+  padding: 1rem 0;
+}
+
+.nav-bar {
+  width: 95%;
+  height: 2rem;
+  align-items: center;
+  background-color: rgb(148, 145, 145);
+  border: 3px solid;
+  margin: auto;
+}
+
+.nav-list {
+  display: flex;
+  width: 40%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.nav-list li {
+  list-style: none;
+  color: blue;
+  cursor: pointer;
+}
+
+#ok {
+  border-right: 2px solid black;
+  height: 1.5rem;
+}
+
+.cont-1 ul li {
+  text-align: center;
+  list-style: none;
+}
+
+.nav-list li:hover {
+  color: aqua;
+}
+
+.date-time {
+  margin: 0 0 0 80%;
+}
+
+h2 {
+  width: 60%;
+  padding-left: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.section-1 {
+  text-align: center;
+  width: 100%;
+}
+
+.hr {
+  width: 20%;
+  margin-top: 2rem;
+  border: none;
+  height: 2px;
+  color: #333;
+  background-color: #333;
+}
+
+.add {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.booksAdded {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.booksAdded:nth-of-type(odd) {
+  background-color: #d3d3d3;
+  height: 3rem;
+}
+
+.booksAdded:nth-of-type(even) {
+  background-color: #fff;
+  height: 3rem;
+}
+
+.button-form {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.form button {
+  margin-left: 94%;
+  cursor: pointer;
+}
+
+.books {
+  width: 60%;
+  text-align: center;
+  border: 3px solid;
+  margin: 0 auto;
+}
+
+.removeBtn {
+  background-color: #ece9e9;
+  cursor: pointer;
+}
+
+.form {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.form input {
+  width: 55%;
+  margin-bottom: 0.5rem;
+}
+
+.cont-1 {
+  width: 55%;
+  margin: auto;
+}
+
+.cont-1 p {
+  text-align: center;
+}
+
+.copy-right {
+  width: 80%;
+  border: 2px solid;
+  margin: 3rem auto 0;
+  text-align: left;
+  padding-left: 1rem;
+}
